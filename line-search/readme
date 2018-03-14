@@ -1,0 +1,21 @@
+Included are is the package for deciding the step length satisfying the 
+strong Wolfe conditions. It includes the following files:
+
+linesearch.m
+bracketing.m
+sectioning.m
+interpolation.m
+fun.m
+grad.m
+
+In order to use this package, one has to modify the subroutines fun.m and 
+grad.m, and the calls of them in bracketing.m and sectioning.m.
+
+This package was written by: 
+
+Zhaosong Lu
+Simon Fraser Univeristy
+Canada
+
+October 23, 2008
+
